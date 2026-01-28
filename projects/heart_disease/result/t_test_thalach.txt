@@ -1,0 +1,12 @@
+
+	Welch Two Sample t-test
+
+data:  thalach by target
+t = 7.9286, df = 266.44, p-value = 6.108e-14
+alternative hypothesis: true difference in means between group Healthy and group Disease is not equal to 0
+95 percent confidence interval:
+ 14.63637 24.30715
+sample estimates:
+mean in group Healthy mean in group Disease 
+             158.5813              139.1095 
+
