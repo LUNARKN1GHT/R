@@ -1,0 +1,31 @@
+
+Call:
+glm(formula = target ~ ., family = "binomial", data = df)
+
+Coefficients:
+             Estimate Std. Error z value Pr(>|z|)    
+(Intercept) -7.372042   2.879476  -2.560  0.01046 *  
+age         -0.014164   0.023970  -0.591  0.55459    
+sex          1.312073   0.488474   2.686  0.00723 ** 
+cp           0.575898   0.191197   3.012  0.00259 ** 
+trestbps     0.024044   0.010730   2.241  0.02504 *  
+chol         0.004995   0.003774   1.324  0.18561    
+fbs         -1.021918   0.555330  -1.840  0.06574 .  
+restecg      0.245153   0.185005   1.325  0.18513    
+thalach     -0.020665   0.010225  -2.021  0.04327 *  
+exang        0.926104   0.413343   2.241  0.02506 *  
+oldpeak      0.247386   0.211832   1.168  0.24287    
+slope        0.570009   0.363085   1.570  0.11644    
+ca           1.267719   0.265384   4.777 1.78e-06 ***
+thal         0.343936   0.100361   3.427  0.00061 ***
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+(Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 409.95  on 296  degrees of freedom
+Residual deviance: 204.69  on 283  degrees of freedom
+AIC: 232.69
+
+Number of Fisher Scoring iterations: 6
+
